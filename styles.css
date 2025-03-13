@@ -13,6 +13,11 @@ a:hover {
         height: auto;
         text-align: center;
          }
+         .img2-div {
+            width:200px;
+            height: auto;
+            text-align: center;
+             }
   /* style for profile pictures */
     .profile.jpg {
         width: 150px;
