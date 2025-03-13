@@ -1,0 +1,79 @@
+/* CSS Reset */
+* body, h1, h2, h3, p, ul, li, nav {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: lavender;
+}
+a:hover {
+    color: red;}
+/* style for project pictures */
+    .img-div {
+        width:200px;
+        height: auto;
+        text-align: center;
+         }
+  /* style for profile pictures */
+    .profile.jpg {
+        width: 150px;
+        border-radius: 50%;
+        /* not working come back to this
+        border: 10px solid black;
+        text-align: center;*/
+         }
+   /* header styling */
+    header {
+        text-align: center;
+        background-color: aqua;
+        color: white;}
+
+   /* about section styling */     
+        #about {
+            text-align: center;
+            padding: 4em;
+        }
+        
+        #about img {
+            width: 150px;
+            border-radius: 50%;
+        }
+        /* skills section styling */  
+        #skills {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            padding: 2em;
+        }
+        
+        .skill {
+            flex: 1;
+            min-width: 150px;
+            margin: 1em;
+            text-align: center;
+            background: #eee;
+            padding: 1em;
+            border-radius: 8px;
+        }
+/* H2 sytling used for sections */   
+        h2 {text-align: center;
+        color: blue;}
+        #projects {
+            display: flex;
+            justify-content: space-evenly;
+        }
+        /* project section styling */  
+        #projects .project {
+            margin: 1em;
+            padding: 1em;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            background: #f9f9f9;
+        }
+        /* Contact Section Styling */
+#contact {
+    background: #86b9c2;
+    padding: 2em;
+    text-align: center;
+}
+
+
