@@ -5,6 +5,13 @@
     box-sizing: border-box;
     background-color: lavender;
 }
+a {
+    text-decoration: underline;
+    color: #2b07fa;
+    font-weight: bold;
+    font-size: 25px;
+    justify-content: space-between;
+}
 a:hover {
     color: red;}
 /* style for project pictures */
@@ -19,13 +26,11 @@ a:hover {
             text-align: center;
              }
   /* style for profile pictures */
-    .profile.jpg {
+    .profile {
         width: 150px;
         border-radius: 50%;
-        /* not working come back to this
-        border: 10px solid black;
-        text-align: center;*/
-         }
+        border: 5px solid black;
+        text-align: center; }
    /* header styling */
     header {
         text-align: center;
@@ -41,6 +46,8 @@ a:hover {
         #about img {
             width: 150px;
             border-radius: 50%;
+            order: 10px solid black;
+            text-align: center;
         }
         /* skills section styling */  
         #skills {
@@ -60,7 +67,8 @@ a:hover {
             border-radius: 8px;
         }
 /* H2 sytling used for sections */   
-        h2 {text-align: center;
+        h2 {
+            text-align: center;
         color: blue;}
         #projects {
             display: flex;
@@ -80,5 +88,3 @@ a:hover {
     padding: 2em;
     text-align: center;
 }
-
-
